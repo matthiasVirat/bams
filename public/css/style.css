@@ -1,0 +1,184 @@
+html, body {
+    /*font-family: 'Audiowide', cursive;*/
+    background-color: #0a1e36;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+}
+
+header .logo {
+    padding: 1rem 0 0 1rem;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-family: 'Audiowide', cursive;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.navbar {
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 70rem;
+}
+
+.nav-item a{
+    color: white;
+    background-color: #0a1e36;
+    margin-left: 1rem;
+    font-family: 'Audiowide', cursive;
+}
+
+.top-right {
+    position: absolute;
+    right: 1rem;
+    top: 1.2rem;
+}
+
+.login-icone {
+    width: 2rem;
+}
+
+.content {
+    text-align: center;
+}
+
+
+.article, .cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 1px 5px;
+    margin: 20px 40px 10px 40px;
+    color: #0a1e36;
+}
+
+.commande{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.m-b-md {
+
+    margin-bottom: 30px;
+}
+
+nav {
+    box-shadow: 0px 1px 5px;
+    width: 100%;
+
+}
+
+.photo
+{
+    max-width: 12rem;
+    max-height: 12rem;
+}
+
+p strong
+{
+    color: red;
+    text-decoration: underline red;
+}
+
+.bouton {
+    width: 900px;
+    height: 150px;
+    font-size: 30px;
+    align-items: center;
+    background-color: #9f013c;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 1px 5px;
+    font-family: 'Audiowide', cursive;
+}
+.acceuil{
+    font-size: 40px;
+
+}
+
+.form-prd {
+    align-items: flex-start;
+    background-color: #FFF;
+    overflow: hidden;
+    padding: 2rem 5rem 2rem 5rem;
+    box-shadow: 0px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry {
+    width: 36rem;
+}
+
+.card-header {
+    background-color: #0a1e36;
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.card-body {
+    background-color: #9f013c;
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #9f013c;
+    border-color: #0a1e36;
+    font-family: 'Audiowide', cursive;
+}
+
+.btn-primary:hover {
+    color:#fff;
+    background-color:#0a1e36;
+    border-color:#0a1e36;
+}
+
+.btn-link {
+    background-color: #9f013c;
+    border-color: #0a1e36;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+.btn-link:hover {
+    color:#fff;
+    background-color:#0a1e36;
+    border-color:#0a1e36;
+}
+
+a.retour-prd {
+    color: white;
+}
+
+.form-prd {
+    background-color: #9f013c;
+}
