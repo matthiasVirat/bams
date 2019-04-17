@@ -185,4 +185,9 @@ a.retour-prd {
 
 .addProduct-form{
     display: none;
+    width: 15rem;
+}
+
+.editProduct-form{
+    display: none;
 }

@@ -96,7 +96,7 @@ class ProductController extends Controller
         $produit = Product::find($productID);
         $produit->update($data);
 
-        return view('products.Update');
+        return redirect( route('adminProduit'));
     }
 
     public function preDestroy($id)

@@ -4,9 +4,17 @@ $(document).ready( () => {
         $('.addProduct-form').css('display', 'inline');
     });
 
-    $('.cancel-btn').on('click', () => {
+    $('.addProduct-form .cancel-btn').on('click', () => {
+        $('.addProduct-form .form-group input').val('');
         $('.addProduct-form').css('display', 'none');
-    })
+    });
 
-    
+    $('.editProduct').on('click', event => {
+        $(event.currentTarget).parent().next().css('display', 'inline');
+    });
+
+    $('.editProduct-form .cancel-btn').on('click', () => {
+        $('.editProduct-form').css('display', 'none');
+    });
+
 });
