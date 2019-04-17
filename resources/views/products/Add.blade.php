@@ -5,9 +5,9 @@
 @endsection
 
 @section('content')
-<header>
+
 <h1>Formulaire de création</h1>
-</header>
+
 
 @if ($errors->any())
     <div class="alert alert-danger">
@@ -22,7 +22,6 @@
 <form method ="post" action="{{route('addProd')}}">
 {{csrf_field()}}
 
-  <div >
     <div class="form-group">
         <label>nom du produit</label>
         <input type="text" class="form-control" name="name" placeholder="nom">
@@ -58,20 +57,9 @@
         <input type="text" class="form-control" name="prd_category_id" placeholder="ID_category">
     </div>
 
+    <input type="submit" value="Envoyer" />
 
-    <p>
-        <input type="submit" value="Envoyer" />
-    </p>
-
-
-</div>
-
-
-
-
-
-
-    </form>
+</form>
 
 
 

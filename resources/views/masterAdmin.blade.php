@@ -41,6 +41,7 @@
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{asset('js/xzoom.min.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
+@yield('script')
 </body>
 </html>
 
